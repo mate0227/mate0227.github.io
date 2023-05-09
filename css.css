@@ -1,0 +1,92 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+}
+
+header {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#choices {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+button img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+button:hover {
+    transform: scale(1.1);
+}
+	
+
+#result {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+	
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#win,
+#draw,
+#lose {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  color: #333;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
